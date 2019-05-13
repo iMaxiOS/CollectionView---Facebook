@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA8E5F5D870151DE40E714F741D258C /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD429CDEF5991EA4921D44F95DD40A6 /* CircularImageView.swift */; };
+		27CBFC0984033D8899300FB0F2B08F08 /* AspectFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D325229EAE38D6ED55F76E8FF7AF5E7C /* AspectFitImageView.swift */; };
+		2A41028AA297EEE01F762927ADC43337 /* Pods-Facebook Desing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD79AC0849AC9ED5A937AC56273BB614 /* Pods-Facebook Desing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F884B96509B1FEBDE860DA81AD38D34 /* LBTAListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEEC0A3ADE7D112B6FD8D72AFCE9EB5 /* LBTAListController.swift */; };
+		31C47CA786FE574B824179E40449671D /* Pods-Facebook Desing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D494BE6644C449C822D86D1910588D /* Pods-Facebook Desing-dummy.m */; };
+		4377412B35F26DB973EB8F1748647B43 /* UITextField+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9F5B6E9980E6E849945CF16561204 /* UITextField+Tools.swift */; };
+		48B0538DA3AAE7BFF3596A0C20422642 /* LBTATools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2062A038AB2204F1E93966FB831C47E /* LBTATools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A2049ABD75E9FE31C793C67E20FCD9 /* UIView+Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E311DC022AE2F5D85034297D75FF23 /* UIView+Stacking.swift */; };
+		7827EA55C34C14D9E6748350317A6B4E /* LBTAListHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377724752770F986FE345F141398A2F0 /* LBTAListHeaderController.swift */; };
+		8677F644DC6B504C8AC25123737BE85C /* IndentedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA11EF3982A82C7BB938074CF61B3B9 /* IndentedTextField.swift */; };
+		8B5E62A1D5B670FEDB3BCB6971D970D9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F40D220FEEF798861A5E07C0A5B51 /* UIView+Layout.swift */; };
+		BC46D5BE7419CFC9452D81E2ECC743E9 /* AnchoredConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D353DF133C6F4E0970EDA847155ACBBC /* AnchoredConstraints.swift */; };
+		C2502C2D10B99044680CDD2501B3D45D /* LBTATools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAC65D797E02A377D660E0552F4159B /* LBTATools-dummy.m */; };
+		C927AB78F3EF2F2B12ADC45E8A00B32D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8678EEF8A387139FAD82129EF6EE83D /* UILabel.swift */; };
+		D063DE0E2F39FC1074425D77228F12C8 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0B7998BB5AF23B1D1A13E2D238263 /* UIColor+Helpers.swift */; };
+		D651285D4B0C8A7AF8383A65B3FDBFF1 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE3D481338945E7EFA1F19F3993BFF8 /* UIButton.swift */; };
+		DE7889DCCBA4D790110D0E534E7582A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DF658A51809FCBB36C8DEF8DD4A1FD12 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB9779D7AB684356B4916231AB0134 /* UIStackView.swift */; };
+		E9DF14E44BB7B5BB2D653D2F69E0D564 /* LBTAListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88E0D6A3787D0C07CB88D02D5196A /* LBTAListCell.swift */; };
+		F5E3897F3B4F1482E1F1749E4AB886D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		206D076111134A0935FC4F45E481993D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09ABC9A94B3EF3B951A847D2E82EF7A;
+			remoteInfo = LBTATools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F8CA07CAA5613AE6ED65052CDE79E3 /* LBTATools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTATools.modulemap; sourceTree = "<group>"; };
+		08889B09977AA477590B8BC45C1CFCA6 /* Pods-Facebook Desing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Facebook Desing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1075F710FA599D446676FF363F29D776 /* Pods-Facebook Desing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Facebook Desing-frameworks.sh"; sourceTree = "<group>"; };
+		1C80D2A36D89992DD17DDD2772092B76 /* Pods-Facebook Desing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Facebook Desing-resources.sh"; sourceTree = "<group>"; };
+		241792CA6EB10FDCC09DE0228781FE3A /* LBTATools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-prefix.pch"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24646A56B7325631DDB5C4AA2077E6D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBB9779D7AB684356B4916231AB0134 /* UIStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackView.swift; path = Source/Extensions/UIStackView.swift; sourceTree = "<group>"; };
+		35326237479DD2688CC313BDB68DBCE1 /* Pods-Facebook Desing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Facebook Desing.modulemap"; sourceTree = "<group>"; };
+		377724752770F986FE345F141398A2F0 /* LBTAListHeaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListHeaderController.swift; path = Source/ListController/LBTAListHeaderController.swift; sourceTree = "<group>"; };
+		44FED2D32000CABCE28BAC742E896819 /* Pods_Facebook_Desing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Facebook_Desing.framework; path = "Pods-Facebook Desing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5566C3DC9ED6F4024794E74E492E4ECA /* Pods-Facebook Desing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Facebook Desing-acknowledgements.plist"; sourceTree = "<group>"; };
+		55E311DC022AE2F5D85034297D75FF23 /* UIView+Stacking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Stacking.swift"; path = "Source/Extensions/UIView+Stacking.swift"; sourceTree = "<group>"; };
+		5ACC1B987D021D923562434EF1B636FC /* Pods-Facebook Desing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebook Desing.release.xcconfig"; sourceTree = "<group>"; };
+		5CD429CDEF5991EA4921D44F95DD40A6 /* CircularImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularImageView.swift; path = Source/UIKitSubclasses/CircularImageView.swift; sourceTree = "<group>"; };
+		64D494BE6644C449C822D86D1910588D /* Pods-Facebook Desing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebook Desing-dummy.m"; sourceTree = "<group>"; };
+		66BABB2EE6FC290485A925DB0D0C5D56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F0B7998BB5AF23B1D1A13E2D238263 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helpers.swift"; path = "Source/UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		6A86D16656CD475F529441E6C4479EEF /* LBTATools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTATools.xcconfig; sourceTree = "<group>"; };
+		7BA11EF3982A82C7BB938074CF61B3B9 /* IndentedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndentedTextField.swift; path = Source/Extensions/IndentedTextField.swift; sourceTree = "<group>"; };
+		A2F9D2C66A7DD30BF9E8F8191631132A /* Pods-Facebook Desing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebook Desing.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF9F5B6E9980E6E849945CF16561204 /* UITextField+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Tools.swift"; path = "Source/Extensions/UITextField+Tools.swift"; sourceTree = "<group>"; };
+		B8678EEF8A387139FAD82129EF6EE83D /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Source/Extensions/UILabel.swift; sourceTree = "<group>"; };
+		B9F6A4AC4C7B15E8358E5878634565FF /* LBTATools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTATools.framework; path = LBTATools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAC65D797E02A377D660E0552F4159B /* LBTATools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTATools-dummy.m"; sourceTree = "<group>"; };
+		C2062A038AB2204F1E93966FB831C47E /* LBTATools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE3D481338945E7EFA1F19F3993BFF8 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Source/Extensions/UIButton.swift; sourceTree = "<group>"; };
+		D325229EAE38D6ED55F76E8FF7AF5E7C /* AspectFitImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AspectFitImageView.swift; path = Source/Extensions/AspectFitImageView.swift; sourceTree = "<group>"; };
+		D353DF133C6F4E0970EDA847155ACBBC /* AnchoredConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchoredConstraints.swift; path = Source/AnchoredConstraints.swift; sourceTree = "<group>"; };
+		DD79AC0849AC9ED5A937AC56273BB614 /* Pods-Facebook Desing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebook Desing-umbrella.h"; sourceTree = "<group>"; };
+		DEF88E0D6A3787D0C07CB88D02D5196A /* LBTAListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListCell.swift; path = Source/ListController/LBTAListCell.swift; sourceTree = "<group>"; };
+		ECEEC0A3ADE7D112B6FD8D72AFCE9EB5 /* LBTAListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListController.swift; path = Source/ListController/LBTAListController.swift; sourceTree = "<group>"; };
+		ED8F40D220FEEF798861A5E07C0A5B51 /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Source/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A76E61B9E47DE128A2B502827394563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E3897F3B4F1482E1F1749E4AB886D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DDB9755478B6A4816A65100A108C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7889DCCBA4D790110D0E534E7582A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA334CEF0236CD920AEA17237283C1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24646A56B7325631DDB5C4AA2077E6D8 /* Info.plist */,
+				03F8CA07CAA5613AE6ED65052CDE79E3 /* LBTATools.modulemap */,
+				6A86D16656CD475F529441E6C4479EEF /* LBTATools.xcconfig */,
+				BEAC65D797E02A377D660E0552F4159B /* LBTATools-dummy.m */,
+				241792CA6EB10FDCC09DE0228781FE3A /* LBTATools-prefix.pch */,
+				C2062A038AB2204F1E93966FB831C47E /* LBTATools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTATools";
+			sourceTree = "<group>";
+		};
+		46D011DF4E56658A28F8BECABDCF8F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DA82EC39209A71C73668AF7B9ED86D1 /* LBTATools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D0118B9A644C8019BE98AFC5C1FCC13 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1A8D1168F30EB4C7CCEB3F41B725E /* Pods-Facebook Desing */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9DA82EC39209A71C73668AF7B9ED86D1 /* LBTATools */ = {
+			isa = PBXGroup;
+			children = (
+				D353DF133C6F4E0970EDA847155ACBBC /* AnchoredConstraints.swift */,
+				D325229EAE38D6ED55F76E8FF7AF5E7C /* AspectFitImageView.swift */,
+				5CD429CDEF5991EA4921D44F95DD40A6 /* CircularImageView.swift */,
+				7BA11EF3982A82C7BB938074CF61B3B9 /* IndentedTextField.swift */,
+				DEF88E0D6A3787D0C07CB88D02D5196A /* LBTAListCell.swift */,
+				ECEEC0A3ADE7D112B6FD8D72AFCE9EB5 /* LBTAListController.swift */,
+				377724752770F986FE345F141398A2F0 /* LBTAListHeaderController.swift */,
+				CFE3D481338945E7EFA1F19F3993BFF8 /* UIButton.swift */,
+				67F0B7998BB5AF23B1D1A13E2D238263 /* UIColor+Helpers.swift */,
+				B8678EEF8A387139FAD82129EF6EE83D /* UILabel.swift */,
+				2CBB9779D7AB684356B4916231AB0134 /* UIStackView.swift */,
+				ACF9F5B6E9980E6E849945CF16561204 /* UITextField+Tools.swift */,
+				ED8F40D220FEEF798861A5E07C0A5B51 /* UIView+Layout.swift */,
+				55E311DC022AE2F5D85034297D75FF23 /* UIView+Stacking.swift */,
+				0AA334CEF0236CD920AEA17237283C1B /* Support Files */,
+			);
+			name = LBTATools;
+			path = LBTATools;
+			sourceTree = "<group>";
+		};
+		AF147FF1EB699CA598A67472D87A26DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6A4AC4C7B15E8358E5878634565FF /* LBTATools.framework */,
+				44FED2D32000CABCE28BAC742E896819 /* Pods_Facebook_Desing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46D011DF4E56658A28F8BECABDCF8F04 /* Pods */,
+				AF147FF1EB699CA598A67472D87A26DF /* Products */,
+				9D0118B9A644C8019BE98AFC5C1FCC13 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C1A8D1168F30EB4C7CCEB3F41B725E /* Pods-Facebook Desing */ = {
+			isa = PBXGroup;
+			children = (
+				66BABB2EE6FC290485A925DB0D0C5D56 /* Info.plist */,
+				35326237479DD2688CC313BDB68DBCE1 /* Pods-Facebook Desing.modulemap */,
+				08889B09977AA477590B8BC45C1CFCA6 /* Pods-Facebook Desing-acknowledgements.markdown */,
+				5566C3DC9ED6F4024794E74E492E4ECA /* Pods-Facebook Desing-acknowledgements.plist */,
+				64D494BE6644C449C822D86D1910588D /* Pods-Facebook Desing-dummy.m */,
+				1075F710FA599D446676FF363F29D776 /* Pods-Facebook Desing-frameworks.sh */,
+				1C80D2A36D89992DD17DDD2772092B76 /* Pods-Facebook Desing-resources.sh */,
+				DD79AC0849AC9ED5A937AC56273BB614 /* Pods-Facebook Desing-umbrella.h */,
+				A2F9D2C66A7DD30BF9E8F8191631132A /* Pods-Facebook Desing.debug.xcconfig */,
+				5ACC1B987D021D923562434EF1B636FC /* Pods-Facebook Desing.release.xcconfig */,
+			);
+			name = "Pods-Facebook Desing";
+			path = "Target Support Files/Pods-Facebook Desing";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		096BFE53D146A660746DA9CF24094C06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41028AA297EEE01F762927ADC43337 /* Pods-Facebook Desing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBBDDFD898D16850DE4E945A80676E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B0538DA3AAE7BFF3596A0C20422642 /* LBTATools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8EE14B5D92BE67D81499F031676D22B5 /* Pods-Facebook Desing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1297E9F2E9A8D5D64A7EFCF7F5BAF3C0 /* Build configuration list for PBXNativeTarget "Pods-Facebook Desing" */;
+			buildPhases = (
+				096BFE53D146A660746DA9CF24094C06 /* Headers */,
+				3791466B9518C477638E7C34B91C4307 /* Sources */,
+				F3DDB9755478B6A4816A65100A108C37 /* Frameworks */,
+				5B22CA8CF5A3A6A8EE5BEDF8E83C518F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D5A6C676D4505A70FE6069274B3958 /* PBXTargetDependency */,
+			);
+			name = "Pods-Facebook Desing";
+			productName = "Pods-Facebook Desing";
+			productReference = 44FED2D32000CABCE28BAC742E896819 /* Pods_Facebook_Desing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A09ABC9A94B3EF3B951A847D2E82EF7A /* LBTATools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CF5D15BE57F19288523EA4948A7450 /* Build configuration list for PBXNativeTarget "LBTATools" */;
+			buildPhases = (
+				96EBBDDFD898D16850DE4E945A80676E /* Headers */,
+				70150D40BF43122964B427893865883A /* Sources */,
+				1A76E61B9E47DE128A2B502827394563 /* Frameworks */,
+				7C48D7DA7A203E5199014A8A5D50B7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTATools;
+			productName = LBTATools;
+			productReference = B9F6A4AC4C7B15E8358E5878634565FF /* LBTATools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF147FF1EB699CA598A67472D87A26DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09ABC9A94B3EF3B951A847D2E82EF7A /* LBTATools */,
+				8EE14B5D92BE67D81499F031676D22B5 /* Pods-Facebook Desing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B22CA8CF5A3A6A8EE5BEDF8E83C518F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C48D7DA7A203E5199014A8A5D50B7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3791466B9518C477638E7C34B91C4307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C47CA786FE574B824179E40449671D /* Pods-Facebook Desing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70150D40BF43122964B427893865883A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46D5BE7419CFC9452D81E2ECC743E9 /* AnchoredConstraints.swift in Sources */,
+				27CBFC0984033D8899300FB0F2B08F08 /* AspectFitImageView.swift in Sources */,
+				1CA8E5F5D870151DE40E714F741D258C /* CircularImageView.swift in Sources */,
+				8677F644DC6B504C8AC25123737BE85C /* IndentedTextField.swift in Sources */,
+				E9DF14E44BB7B5BB2D653D2F69E0D564 /* LBTAListCell.swift in Sources */,
+				2F884B96509B1FEBDE860DA81AD38D34 /* LBTAListController.swift in Sources */,
+				7827EA55C34C14D9E6748350317A6B4E /* LBTAListHeaderController.swift in Sources */,
+				C2502C2D10B99044680CDD2501B3D45D /* LBTATools-dummy.m in Sources */,
+				D651285D4B0C8A7AF8383A65B3FDBFF1 /* UIButton.swift in Sources */,
+				D063DE0E2F39FC1074425D77228F12C8 /* UIColor+Helpers.swift in Sources */,
+				C927AB78F3EF2F2B12ADC45E8A00B32D /* UILabel.swift in Sources */,
+				DF658A51809FCBB36C8DEF8DD4A1FD12 /* UIStackView.swift in Sources */,
+				4377412B35F26DB973EB8F1748647B43 /* UITextField+Tools.swift in Sources */,
+				8B5E62A1D5B670FEDB3BCB6971D970D9 /* UIView+Layout.swift in Sources */,
+				75A2049ABD75E9FE31C793C67E20FCD9 /* UIView+Stacking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D5A6C676D4505A70FE6069274B3958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTATools;
+			target = A09ABC9A94B3EF3B951A847D2E82EF7A /* LBTATools */;
+			targetProxy = 206D076111134A0935FC4F45E481993D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		113EFA3D0BF501383A7508FEE095D700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A86D16656CD475F529441E6C4479EEF /* LBTATools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		238A91F7BBF4CAF3175510DC6DCAF70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F9D2C66A7DD30BF9E8F8191631132A /* Pods-Facebook Desing.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebook Desing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebook Desing/Pods-Facebook Desing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		751E926C9FFA061EC685CA6FF4E728E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		77F8C5553A37DC163BAC2FD1B7D21F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A86D16656CD475F529441E6C4479EEF /* LBTATools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF4CCB42ED503EBBE1E6341BE1494378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACC1B987D021D923562434EF1B636FC /* Pods-Facebook Desing.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebook Desing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebook Desing/Pods-Facebook Desing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB9D6A439C6489A023298D9B267B8F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1297E9F2E9A8D5D64A7EFCF7F5BAF3C0 /* Build configuration list for PBXNativeTarget "Pods-Facebook Desing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238A91F7BBF4CAF3175510DC6DCAF70C /* Debug */,
+				DF4CCB42ED503EBBE1E6341BE1494378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CF5D15BE57F19288523EA4948A7450 /* Build configuration list for PBXNativeTarget "LBTATools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113EFA3D0BF501383A7508FEE095D700 /* Debug */,
+				77F8C5553A37DC163BAC2FD1B7D21F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751E926C9FFA061EC685CA6FF4E728E6 /* Debug */,
+				FB9D6A439C6489A023298D9B267B8F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

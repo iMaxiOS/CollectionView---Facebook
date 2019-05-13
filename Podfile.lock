@@ -1,0 +1,16 @@
+PODS:
+  - LBTATools (0.1.7)
+
+DEPENDENCIES:
+  - LBTATools
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LBTATools
+
+SPEC CHECKSUMS:
+  LBTATools: 9d872089dd18cc9c1f8a98f0ad4fa5c22b53d38a
+
+PODFILE CHECKSUM: dbcc3dccfb8977bf24000551a28af7dcf5060cdb
+
+COCOAPODS: 1.5.3
